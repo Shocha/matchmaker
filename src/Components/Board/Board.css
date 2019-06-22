@@ -10,34 +10,40 @@ body{
 .memory-game{
 background:linear-gradient(to left,rgba(7,27,82,1)20%,rgba(0,128,128,1)100%);
 	margin:auto;
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	
 	width:700px;
 	height:500px;
 	border-radius:20px;
+	grid-template-columns:repeat(auto-fit,minMax(150px,1fr));
 }
 .memory-card{
 	
 	
-	width:calc(20%);
-	height: calc(208%-10px);
-	margin: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	position: relative;
+	
+	display: grid;
+	grid-template-columns:repeat(auto-fit,minMax(150px,1fr));
+	
+	
 	
 	
 
 }
 
 
-.front-face,
 .back-face{
+	content: '';
+position: relative;
+bottom:200px;
+}
+.front-face{
 	width:100%;
-	height: 100%;
+	height: 60%;
 	padding: 20px;
+	
 	margin: auto;
 	border-radius: 26px;
-	position: absolute;
+	
+	
 
 }
