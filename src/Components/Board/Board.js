@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './Board.css';
 import angular from './angular.svg';
 import asd from './asd.svg';
@@ -12,7 +12,15 @@ import detail from './detail.jpg';
 
 
 
-const Board=()=>{
+
+class Board extends React.Component{
+	constructor(props){
+		super(props);
+		this.state={};
+	}
+
+
+	render(){
 	return(<div className='memory-game'>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={angular}/> 
@@ -81,6 +89,7 @@ const Board=()=>{
 
 		</div>
 	);
+}
 }
 
 export default Board;
