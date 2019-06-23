@@ -16,67 +16,67 @@ const Board=()=>{
 	return(<div className='memory-game'>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={angular}/> 
-		{/*<img className='back-face' alt='angular' src={detail}/>*/}
+		<img className='back-face' alt='angular' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={brown}/> 
-		{/*<img className='back-face' alt='brown' src={detail}/> */}
+		<img className='back-face' alt='brown' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={react}/> 
-		{/*<img className='back-face' alt='react' src={detail}/> */}
+		<img className='back-face' alt='react' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={angular}/> 
-		{/*<img className='back-face' alt='angular' src={detail}/> */}
+		<img className='back-face' alt='angular' src={detail}/> 
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={brown}/> 
-		{/*<img className='back-face' alt='brown' src={detail}/> */}
+		<img className='back-face' alt='brown' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={react}/> 
-		{/*<img className='back-face' alt='react' src={detail}/> */}
+		<img className='back-face' alt='react' src={detail}/> 
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={ember}/> 
-		{/*<img className='back-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={vue}/> 
-		{/*<img className='back-face' alt='brown' src={detail}/> */}
+		<img className='back-face' alt='brown' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={ember}/> 
-		{/*<img className='back-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={vue}/> 
-		{/*<img className='back-face' alt='brown' src={detail}/> */}
+		<img className='back-face' alt='brown' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={javascript}/> 
-		{/*<img className='front-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={asd}/> 
-		{/*<img className='front-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={javascript}/> 
-		{/*<img className='front-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='' src={detail}/> 
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={kiwi}/> 
-		{/*<img className='front-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={kiwi}/> 
-		{/*<img className='back-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 		<div className='memory-card'>
 		<img className='front-face' alt='detail' src={asd}/> 
-		{/*<img className='back-face' alt='ember' src={detail}/> */}
+		<img className='back-face' alt='ember' src={detail}/>
 		</div>
 
 		</div>
